@@ -46,15 +46,24 @@ class SpringKotlinApplication(
         runCatching {
             assistant.weatherForecast(
                 """
-  Mañana: El día amanece cálido y soleado en La Habana, con una brisa suave que refresca mientras recorres el Malecón. Las temperaturas rondarán los 26 °C (79 °F), perfectas para disfrutar de un paseo matutino por las coloridas calles de La Habana Vieja, admirando su arquitectura colonial.
+    Mañana: El día amanece cálido y soleado en La Habana,
+    con una brisa suave que refresca mientras recorres el Malecón. Las temperaturas rondarán los 26°C (79°F),
+    perfectas para disfrutar de un paseo matutino por las coloridas calles de La Habana Vieja, admirando su arquitectura colonial.
 
-Tarde: El sol sigue brillando intensamente y la ciudad se llena de vida. Las temperaturas alcanzarán los 31 °C (88 °F), por lo que es un buen momento para hacer una pausa y disfrutar de un mojito o un jugo natural en alguna terraza con vista al mar. También puedes visitar la Plaza de la Catedral o dar un paseo en auto clásico por el centro.
+    Tarde: El sol sigue brillando intensamente y la ciudad se llena de vida. Las temperaturas alcanzarán los 31°C (88°F),
+    por lo que es un buen momento para hacer una pausa y disfrutar de un mojito o un jugo natural en alguna terraza con vista al mar.
+    También puedes visitar la Plaza de la Catedral o dar un paseo en auto clásico por el centro.
 
-Noche: Al caer la tarde, el calor disminuye y la brisa del mar refresca el ambiente. Las temperaturas bajan hasta los 24 °C (75 °F). Es el momento ideal para cenar en un paladar (restaurante familiar) y disfrutar de la música cubana en vivo, ya sea en un bar local o en una plaza al aire libre.
+    Noche: Al caer la tarde, el calor disminuye y la brisa del mar refresca el ambiente.
+    Las temperaturas bajan hasta los 24°C (75°F).
+    Es el momento ideal para cenar en un paladar (restaurante familiar) y disfrutar de la música cubana en vivo,
+    ya sea en un bar local o en una plaza al aire libre.
 
-Resumen: Te espera un día tropical y vibrante en La Habana, ideal para explorar su cultura, música y gastronomía. El clima cálido y la hospitalidad cubana harán de tu visita una experiencia inolvidable.
+    Resumen: Te espera un día tropical y vibrante en La Habana, ideal para explorar su cultura, música y gastronomía.
+    El clima cálido y la hospitalidad cubana harán de tu visita una experiencia inolvidable.
 
-No olvides: Lleva ropa fresca y ligera, protector solar, y agua para mantenerte hidratado durante el día. Por la noche, algo cómodo para salir a disfrutar la música y la brisa habanera.
+    No olvides: Lleva ropa fresca y ligera, protector solar, y agua para mantenerte hidratado durante el día.
+     Por la noche, algo cómodo para salir a disfrutar la música y la brisa habanera.
     """
             )
         }.onSuccess {
@@ -66,22 +75,28 @@ No olvides: Lleva ropa fresca y ligera, protector solar, y agua para mantenerte 
         runCatching {
             assistant.story(
                 """
-  Título: "El susurro de La Habana"
+    Título: "El susurro de La Habana"
 
-La Habana despertaba lentamente, como una vieja dama que se sacude los restos de un sueño profundo. Las calles, aún húmedas por la brisa marina de la madrugada, reflejaban los primeros rayos del sol que se colaban tímidamente entre los balcones coloniales.
+    La Habana despertaba lentamente, como una vieja dama que se sacude los restos de un sueño profundo.
+    Las calles, aún húmedas por la brisa marina de la madrugada, reflejaban los primeros rayos del sol que se colaban tímidamente entre los balcones coloniales.
 
-En una esquina de La Habana Vieja, Ernesto, un joven escritor frustrado, observaba desde la ventana de su desvencijado apartamento. Había llegado a la ciudad en busca de inspiración, pero la rutina y la falta de oportunidades habían apagado su entusiasmo.
+    En una esquina de La Habana Vieja, Ernesto, un joven escritor frustrado, observaba desde la ventana de su desvencijado apartamento.
+    Había llegado a la ciudad en busca de inspiración, pero la rutina y la falta de oportunidades habían apagado su entusiasmo.
 
-Esa mañana, algo era diferente. Mientras bebía su café, escuchó un susurro que parecía venir desde el callejón:
-—"Ven al Malecón al anochecer" —decía una voz suave, casi imperceptible.
+    Esa mañana, algo era diferente. Mientras bebía su café, escuchó un susurro que parecía venir desde el callejón:
+    —"Ven al Malecón al anochecer" —decía una voz suave, casi imperceptible.
 
-Pensando que era producto de su imaginación, Ernesto intentó ignorarlo, pero la curiosidad pudo más. Al llegar la noche, se dirigió al Malecón. El mar estaba inquieto, y las olas golpeaban con fuerza los muros que protegían la ciudad. Allí, bajo la tenue luz de una farola, encontró a una mujer de mirada profunda y vestida con ropas antiguas.
+    Pensando que era producto de su imaginación, Ernesto intentó ignorarlo, pero la curiosidad pudo más.
+    Al llegar la noche, se dirigió al Malecón. El mar estaba inquieto, y las olas golpeaban con fuerza los muros que protegían la ciudad. 
+    Allí, bajo la tenue luz de una farola, encontró a una mujer de mirada profunda y vestida con ropas antiguas.
 
-—"He esperado mucho por ti" —dijo ella—. "En estas aguas duerme una historia que aún no ha sido contada".
+    —"He esperado mucho por ti" —dijo ella—. "En estas aguas duerme una historia que aún no ha sido contada".
 
-Intrigado, Ernesto se sentó junto a ella, y mientras las olas rompían a sus pies, comenzó a escuchar un relato olvidado de piratas, tesoros escondidos y amores imposibles que se remontaban a los días en que corsarios navegaban por el Caribe.
+    Intrigado, Ernesto se sentó junto a ella, y mientras las olas rompían a sus pies, comenzó a escuchar un relato olvidado de piratas,
+    tesoros escondidos y amores imposibles que se remontaban a los días en que corsarios navegaban por el Caribe.
 
-Aquella noche, Ernesto entendió que La Habana no era solo una ciudad, sino un cofre repleto de historias que susurran a quienes están dispuestos a escuchar. Y, por primera vez en mucho tiempo, sintió que las palabras volvían a fluir, como las olas que nunca dejan de besar las piedras del Malecón.
+    Aquella noche, Ernesto entendió que La Habana no era solo una ciudad, sino un cofre repleto de historias que susurran a quienes están dispuestos a escuchar.
+    Y, por primera vez en mucho tiempo, sintió que las palabras volvían a fluir, como las olas que nunca dejan de besar las piedras del Malecón.
 
  """
             )
